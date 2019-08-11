@@ -16,3 +16,8 @@
 + Django2.0官方文档<https://docs.djangoproject.com/zh-hans/2.0/intro/install/>
 + python版本<Python 2.7.16>
 + django版本<1.11.23>
++ 安装跨域的依赖包
+```
+pip install django-cors-headers
+
+```
