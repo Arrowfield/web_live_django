@@ -10,3 +10,7 @@
 1. Django设置允许跨域的问题<https://blog.csdn.net/zhu6201976/article/details/84677213>
 2. http请求响应过程中的三次握手四次挥手<https://www.jianshu.com/p/bd31d3b23725>
 3. 此处为服务端（使用python中的web框架django）
+
++ 使用Pip安装Django框架依赖环境
++ python -> pip -> django
++ Django2.0官方文档<https://docs.djangoproject.com/zh-hans/2.0/intro/install/>
