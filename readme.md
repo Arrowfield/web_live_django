@@ -14,3 +14,5 @@
 + 使用Pip安装Django框架依赖环境
 + python -> pip -> django
 + Django2.0官方文档<https://docs.djangoproject.com/zh-hans/2.0/intro/install/>
++ python版本<Python 2.7.16>
++ django版本<1.11.23>
