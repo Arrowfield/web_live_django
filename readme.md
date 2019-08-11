@@ -30,3 +30,9 @@ python manage.py startapp projectName
 + 下载镜像<http://npm.taobao.org/mirrors/python/3.7.4/>
 + amd64
 + 直播项目
+
+#### 数据库的安装步骤
+
++ 填写数据库的基本信息
++ 安装数据库驱动pip install pymysql
++ 
