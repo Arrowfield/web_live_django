@@ -20,6 +20,7 @@
 + mysql版本<5.5>
 + pip版本<19.0.3>
 + 安装跨域的依赖包
++ 每个子项目彼此独立
 ```
 pip install django-cors-headers
 
@@ -32,7 +33,6 @@ pip install django-cors-headers
 python manage.py startapp projectName
 
 ```
-
 + 下载镜像<http://npm.taobao.org/mirrors/python/3.7.4/>
 + amd64
 + 直播项目
@@ -46,8 +46,11 @@ python manage.py startapp projectName
 
 ```
 C:\Users\pc\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\pc\AppData\Local\Programs\Python\Python37-32\;
+mysql -uroot -proot #开启数据库
+mysql --version #检查数据库版本
+#my.ini中修改端口
 ```
-
++ phpStudy mysql版本升级<https://www.csdn.net/gather_24/MtTaIg1sNDg4My1ibG9n.html>
 + 数据库安装成功
 
 ## 5、建立Models
@@ -61,4 +64,5 @@ python manage.py migrate #创建数据表
 
 ```
 + 备注 生成的表明：【子应用名_类名】
+
 
