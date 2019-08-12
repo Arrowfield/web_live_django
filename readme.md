@@ -15,8 +15,10 @@
 + 使用Pip安装Django框架依赖环境
 + python -> pip -> django
 + Django2.0官方文档<https://docs.djangoproject.com/zh-hans/2.2/>
-+ python版本<Python 3.6.16>
++ python版本<3.6.16>
 + django版本<2.2.23>
++ mysql版本<5.5>
++ pip版本<19.0.3>
 + 安装跨域的依赖包
 ```
 pip install django-cors-headers
@@ -49,4 +51,14 @@ C:\Users\pc\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\pc\AppDa
 + 数据库安装成功
 
 ## 5、建立Models
++ 创建模型
++ 激活模型
+```
+python manage.py makemigrations live #激活模型
+python manage.py sqlmigrate live 0001 #生成sql语句
+python manage.py check #检查问题 
+python manage.py migrate #创建数据表
+
+```
++ 备注 生成的表明：【子应用名_类名】
 
