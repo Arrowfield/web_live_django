@@ -68,8 +68,47 @@ python manage.py migrate #创建数据表
 + 备注 生成的表明：【子应用名_类名】
 
 ```
-C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Ruby25-x64\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\UCRT\;C:\Program Files\Intel\UCRT\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;D:\myphp_www\PHPTutorial\php\php-7.2.1-nts;C:\composer;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\TortoiseGit\bin;C:\Program Files (x86)\Bitvise SSH Client;D:\Android\android-sdk\platform-tools;%systemroot%\System32\WindowsPowerShell\v1.0\;D:\Android\android-sdk\platform-tools;C:\Users\pc\.gradle\wrapper\dists\gradle-5.4.1-all\3221gyojl5jsh0helicew7rwx\gradle-5.4.1\bin;
-D:\MySQL\MySQL Server 5.7\bin;
+C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Ruby25-x64\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\UCRT\;C:\Program Files\Intel\UCRT\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;D:\myphp_www\PHPTutorial\php\php-7.2.1-nts;C:\composer;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\TortoiseGit\bin;C:\Program Files (x86)\Bitvise SSH Client;D:\Android\android-sdk\platform-tools;%systemroot%\System32\WindowsPowerShell\v1.0\;D:\Android\android-sdk\platform-tools;C:\Users\pc\.gradle\wrapper\dists\gradle-5.4.1-all\3221gyojl5jsh0helicew7rwx\gradle-5.4.1\bin;D:\MySQL\MySQL Server 5.7\bin;
 ```
++ 数据库安装后的解决方案<https://blog.csdn.net/chen97_08/article/details/81484286>
++ 升级mysql<https://blog.csdn.net/yt_php/article/details/81302367>
+```
+[client]
+port=3306
+[mysql]
+default-character-set=utf8
+[mysqld]
+port=3306
+basedir="D:/soft/phpstudy/PHPTutorial/MySQL/"
+datadir="D:/soft/phpstudy/PHPTutorial/MySQL/data/"
+character-set-server=utf8
+default-storage-engine=INNODB
 
+max_connections=512
+
+query_cache_size=0
+tmp_table_size=32M
+
+thread_cache_size=8
+myisam_max_sort_file_size=64G
+myisam_sort_buffer_size=35M
+key_buffer_size=25M
+read_buffer_size=64K
+read_rnd_buffer_size=256K
+sort_buffer_size=256K
+
+innodb_additional_mem_pool_size=2M
+
+innodb_flush_log_at_trx_commit=1
+innodb_log_buffer_size=1M
+
+innodb_buffer_pool_size=47M
+innodb_log_file_size=24M
+innodb_thread_concurrency=8
+#新加
+innodb_file_per_table = 1
+skip-grant-tables = 1 #跳过权限验证
+log-error = D:/soft/phpstudy/PHPTutorial/MySQL/data/error.log
+
+```
 
