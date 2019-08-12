@@ -1,11 +1,12 @@
 #### 项目总结
 
+## 1、生成一个项目
 * 安装Python，Pip，安装Django后并且检查相关版本
 * 新建Django项目的命令 django-admin startproject HelloWorld
 * 运行Django项目的命令 python manage.py runserver 8080
 * 时间：2019-09-10号开始开发mvc框架相关的web网站
 
-#### 项目运行
+## 2、项目运行
 
 1. Django设置允许跨域的问题<https://blog.csdn.net/zhu6201976/article/details/84677213>
 2. http请求响应过程中的三次握手四次挥手<https://www.jianshu.com/p/bd31d3b23725>
@@ -21,6 +22,9 @@
 pip install django-cors-headers
 
 ```
+
+## 3、生成子项目
+
 + 生成一个项目【新生成局部项目】
 ```
 python manage.py startapp projectName
@@ -31,7 +35,7 @@ python manage.py startapp projectName
 + amd64
 + 直播项目
 
-#### 数据库的安装步骤
+## 4、数据库的安装步骤
 
 + 填写数据库的基本信息
 + 安装数据库驱动pip install pymysql[旧的驱动]
@@ -43,3 +47,6 @@ C:\Users\pc\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\pc\AppDa
 ```
 
 + 数据库安装成功
+
+## 5、建立Models
+
