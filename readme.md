@@ -34,5 +34,12 @@ python manage.py startapp projectName
 #### 数据库的安装步骤
 
 + 填写数据库的基本信息
-+ 安装数据库驱动pip install pymysql
-+ 
++ 安装数据库驱动pip install pymysql[旧的驱动]
++ C:\Users\pc\AppData\Local\Temp\pip-install-d864pdal\mysqlclient\
++ 更换驱动<https://www.jianshu.com/p/e21a57bdd2fb>
+
+```
+C:\Users\pc\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\pc\AppData\Local\Programs\Python\Python37-32\;
+```
+
++ 数据库安装成功
