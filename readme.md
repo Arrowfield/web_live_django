@@ -37,6 +37,7 @@ python manage.py startapp projectName
 + amd64
 + 直播项目
 + msi
++ 
 
 ## 4、数据库的安装步骤
 
@@ -65,5 +66,10 @@ python manage.py migrate #创建数据表
 
 ```
 + 备注 生成的表明：【子应用名_类名】
+
+```
+C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Ruby25-x64\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\UCRT\;C:\Program Files\Intel\UCRT\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;D:\myphp_www\PHPTutorial\php\php-7.2.1-nts;C:\composer;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\TortoiseGit\bin;C:\Program Files (x86)\Bitvise SSH Client;D:\Android\android-sdk\platform-tools;%systemroot%\System32\WindowsPowerShell\v1.0\;D:\Android\android-sdk\platform-tools;C:\Users\pc\.gradle\wrapper\dists\gradle-5.4.1-all\3221gyojl5jsh0helicew7rwx\gradle-5.4.1\bin;
+D:\MySQL\MySQL Server 5.7\bin;
+```
 
 
