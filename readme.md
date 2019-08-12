@@ -52,7 +52,7 @@ mysql -uroot -proot #开启数据库
 mysql --version #检查数据库版本
 #my.ini中修改端口
 ```
-+ phpStudy mysql版本升级<https://www.csdn.net/gather_24/MtTaIg1sNDg4My1ibG9n.html>
++ phpStudy 
 + 数据库安装成功
 
 ## 5、建立Models
