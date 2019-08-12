@@ -117,3 +117,5 @@ log-error = D:/soft/phpstudy/PHPTutorial/MySQL/data/error.log
 + password:root
 + email:768449566@qq.com
 
++ 如果你有一个模板文件正好和另一个应用中的某个模板文件重名，Django 没有办法 区分 它们
+
