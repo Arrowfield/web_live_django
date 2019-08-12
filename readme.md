@@ -111,4 +111,9 @@ skip-grant-tables = 1 #跳过权限验证
 log-error = D:/soft/phpstudy/PHPTutorial/MySQL/data/error.log
 
 ```
++ 创建管理用户
++ python manage.py createsuperuser
++ user:admin
++ password:root
++ email:768449566@qq.com
 
