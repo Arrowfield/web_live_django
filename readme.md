@@ -122,3 +122,7 @@ log-error = D:/soft/phpstudy/PHPTutorial/MySQL/data/error.log
 
 + 如果你有一个模板文件正好和另一个应用中的某个模板文件重名，Django 没有办法 区分 它们
 
++ 进入文档对象模型管理界面的方法
+
++ decode -> encode // C:\Users\field\AppData\Local\Programs\Python\Python37\Lib\site-packages\django\db\backends\mysql
+
