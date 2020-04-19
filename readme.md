@@ -43,10 +43,8 @@ python manage.py startapp projectName
 ## 4、数据库的安装步骤
 
 + 填写数据库的基本信息
-<<<<<<< HEAD
 + 安装数据库驱动pip install pymysql / pip install mysqlclient 解决了问题
 + 
-=======
 + 安装数据库驱动pip install pymysql[旧的驱动]
 + C:\Users\pc\AppData\Local\Temp\pip-install-d864pdal\mysqlclient\
 + 更换驱动<https://www.jianshu.com/p/e21a57bdd2fb>
@@ -124,4 +122,3 @@ log-error = D:/soft/phpstudy/PHPTutorial/MySQL/data/error.log
 
 + 如果你有一个模板文件正好和另一个应用中的某个模板文件重名，Django 没有办法 区分 它们
 
->>>>>>> f326878102861a112942502b1cca4b1019e460c3
