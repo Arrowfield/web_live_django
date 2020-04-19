@@ -2,6 +2,7 @@
 
 * 安装Python，Pip，安装Django后并且检查相关版本
 * 新建Django项目的命令 django-admin startproject HelloWorld
+* 连接mysql数据库 否者会报错 注释数据库相关配置代码就可以正常 pip install mysqlclient
 * 运行Django项目的命令 python manage.py runserver 8080
 * 时间：2019-09-10号开始开发mvc框架相关的web网站
 
@@ -34,5 +35,5 @@ python manage.py startapp projectName
 #### 数据库的安装步骤
 
 + 填写数据库的基本信息
-+ 安装数据库驱动pip install pymysql
++ 安装数据库驱动pip install pymysql / pip install mysqlclient 解决了问题
 + 
